@@ -9,9 +9,8 @@ function send(method) {
       });
       break;
     case "identify":
-      analytics.identify("1234567", {
-        sampleTrait: true
-        name: 'Jonathan Kim'
+      analytics.identify('1234567', {
+        name: 'Jonathan Kim',
         email: 'jonkim47@gmail.com'
       });
       break;
