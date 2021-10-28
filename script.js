@@ -9,8 +9,10 @@ function send(method) {
       });
       break;
     case "identify":
-      analytics.identify("sampleUserId", {
+      analytics.identify("1234567", {
         sampleTrait: true
+        name: 'Jonathan Kim'
+        email: 'jonkim47@gmail.com'
       });
       break;
     case "group":
