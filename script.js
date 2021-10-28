@@ -4,8 +4,10 @@ function send(method) {
       analytics.page("Sample Page Event");
       break;
     case "track":
-      analytics.track("Sample Track Event", {
-        sampleProperty: true
+      analytics.track('Button Clicked', {
+        button: 'Track',
+        metadata1: 'Circle',
+        metadata2: 'Blue'
       });
       break;
     case "identify":
