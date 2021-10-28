@@ -9,7 +9,7 @@ function send(method) {
       });
       break;
     case "identify":
-      analytics.identify('1234567', {
+      analytics.identify('123456', {
         name: 'Jonathan Kim',
         email: 'jonkim47@gmail.com'
       });
