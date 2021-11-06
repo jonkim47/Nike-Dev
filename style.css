@@ -7,8 +7,6 @@ body, html {
 
 .background {
   background-image: url("background2.png");
-  width: 100%;
-  height: auto; 
   background-repeat: no-repeat;
   background-size: 1100px;
 }
