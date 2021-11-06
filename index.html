@@ -1,6 +1,9 @@
 <html>
 
 <head>
+  <title>Nike Demo</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   
   <script>
     !function(){
@@ -38,6 +41,21 @@
 </head>
 
 <body>
+  
+  <!-- new stuff -->
+  <div class="background">
+    <!-- Fields with absolute position -->
+	<input class="number" type="text" id="number">
+	<input class="sms" type="checkbox" id="sms" onchange="phone()">
+	<label class="label"> SMS Auth? </label> 
+	
+	<button class="embedded" type="button" onclick="signature('embedded')" id="embedded">Embedded
+		Sign</button>
+	<button class="remote" type="button" onclick="signature('remote')" id="remote">Remote Sign</button>
+	<button class="getDoc" type="button" onclick="window.open('signedDoc.pdf', '_blank')" id="getDoc">View Signed Document</button>
+  </div>
+  <!-- End new stuff -->
+  
   <div class="md:container md:mx-auto">
     <div class="text-4xl">SE Interview Challenge</div>
     <ul>
