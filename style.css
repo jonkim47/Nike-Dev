@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  font-size: 12px!important;
+}
+
+.background {
+  background-image: url("background.png");
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-size: 1100px;
+}
+
+.number {
+  position: absolute;
+  top: 280px;
+  left: 861px;
+  display: none;
+}
+
+.sms {
+  position: absolute;
+  top: 247px;
+  left: 925px;
+}
+
+.label {
+  position: absolute;
+  top: 250px;
+  left: 861px;
+}
+
+.embedded {
+  position: absolute;
+  top: 160px;
+  left: 861px;
+
+}
+
+.remote {
+  position: absolute;
+  top: 200px;
+  left: 861px;
+
+}
+
+.getDoc {
+  position: absolute;
+  top: 500px;
+  left: 861px;
+}
+
+.loader {
+    display: none;
+    border: 12px solid #ff3add;
+    border-radius: 50%;
+    border-top: 12px solid #00ed00;
+    border-right: 12px solid #d5fa00;
+    border-bottom: 12px solid #0ac5ff;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
