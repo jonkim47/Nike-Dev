@@ -12,6 +12,15 @@ function send(method) {
         price: '180' 
       });
       break;
+    case "track2":
+      analytics.track('Product Selected', {
+        product_name: 'Nike Air Zoom Infinity Tour Shield',
+        category: 'Golf',
+        product_type: 'Shoes',
+        colorway: 'Rattan/Birch/Particle Grey/Black',
+        price: '180' 
+      });
+      break;
     case "identify":
       analytics.identify('91d2811a848c01ac', {
         name: 'Jonathan Kim',
