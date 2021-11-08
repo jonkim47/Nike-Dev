@@ -1,19 +1,21 @@
 function send(method) {
   switch (method) {
     case "page":
-      analytics.page("Sample Page Event");
+      analytics.page("Nike Golf Shoes - Landing");
       break;
     case "track":
-      analytics.track('Button Clicked', {
-        button: 'Track',
-        metadata1: 'Circle',
-        metadata2: 'Blue'
+      analytics.track('Product Selected', {
+        product_name: 'Nike Air Zoom Infinity Tour Shield',
+        category: 'Golf',
+        product_type: 'Shoes',
+        colorway: 'Rattan/Birch/Particle Grey/Black',
+        price: '180' 
       });
       break;
     case "identify":
-      analytics.identify('123456', {
+      analytics.identify('91d2811a848c01ac', {
         name: 'Jonathan Kim',
-        email: 'jonkim47@gmail.com'
+        email: 'dsdemo47@gmail.com'
       });
       break;
     case "group":
