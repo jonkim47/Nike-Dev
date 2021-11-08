@@ -14,11 +14,11 @@ function send(method) {
       break;
     case "track2":
       analytics.track('Product Selected', {
-        product_name: 'Nike Air Zoom Infinity Tour Shield',
+        product_name: 'Jordan ADG 3',
         category: 'Golf',
         product_type: 'Shoes',
-        colorway: 'Rattan/Birch/Particle Grey/Black',
-        price: '180' 
+        colorway: 'White/Cement',
+        price: '140' 
       });
       break;
     case "identify":
